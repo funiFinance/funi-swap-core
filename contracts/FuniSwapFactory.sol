@@ -1,7 +1,7 @@
 pragma solidity =0.5.16;
 
-import './interfaces/IFuniSwapFactory.sol';
-import './FuniSwapPair.sol';
+import "./interfaces/IFuniSwapFactory.sol";
+import "./FuniSwapPair.sol";
 
 contract FuniSwapFactory is IFuniSwapFactory {
     bytes32 public constant INIT_CODE_PAIR_HASH = keccak256(abi.encodePacked(type(FuniSwapPair).creationCode));

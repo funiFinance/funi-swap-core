@@ -1,7 +1,7 @@
 pragma solidity =0.5.16;
 
-import './interfaces/IFuniSwapERC20.sol';
-import './libraries/SafeMath.sol';
+import "./interfaces/IFuniSwapERC20.sol";
+import "./libraries/SafeMath.sol";
 
 contract FuniSwapERC20 is IFuniSwapERC20 {
     using SafeMath for uint;

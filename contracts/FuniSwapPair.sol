@@ -1,12 +1,12 @@
 pragma solidity =0.5.16;
 
-import './interfaces/IFuniSwapPair.sol';
-import './FuniSwapERC20.sol';
-import './libraries/Math.sol';
-import './libraries/UQ112x112.sol';
-import './interfaces/IERC20.sol';
-import './interfaces/IFuniSwapFactory.sol';
-import './interfaces/IFuniSwapCallee.sol';
+import "./interfaces/IFuniSwapPair.sol";
+import "./FuniSwapERC20.sol";
+import "./libraries/Math.sol";
+import "./libraries/UQ112x112.sol";
+import "./interfaces/IERC20.sol";
+import "./interfaces/IFuniSwapFactory.sol";
+import "./interfaces/IFuniSwapCallee.sol";
 
 contract FuniSwapPair is IFuniSwapPair, FuniSwapERC20 {
     using SafeMath  for uint;
